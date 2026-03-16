@@ -1,0 +1,15 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_block_brick_destroy","order":1,"path":"objects/obj_block_brick_destroy/obj_block_brick_destroy.yy",},
+    {"name":"obj_block_brick","order":2,"path":"objects/obj_block_brick/obj_block_brick.yy",},
+    {"name":"obj_block_parent","order":3,"path":"objects/obj_block_parent/obj_block_parent.yy",},
+    {"name":"obj_bridge","order":4,"path":"objects/obj_bridge/obj_bridge.yy",},
+    {"name":"obj_ladder","order":5,"path":"objects/obj_ladder/obj_ladder.yy",},
+    {"name":"spr_block_brick_destroy","order":4,"path":"sprites/spr_block_brick_destroy/spr_block_brick_destroy.yy",},
+    {"name":"spr_block_coins_active","order":1,"path":"sprites/spr_block_coins_active/spr_block_coins_active.yy",},
+    {"name":"spr_block_coins_inactive","order":2,"path":"sprites/spr_block_coins_inactive/spr_block_coins_inactive.yy",},
+    {"name":"spr_bridge","order":3,"path":"sprites/spr_bridge/spr_bridge.yy",},
+    {"name":"spr_ladder","order":5,"path":"sprites/spr_ladder/spr_ladder.yy",},
+  ],
+}
