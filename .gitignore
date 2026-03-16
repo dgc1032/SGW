@@ -1,0 +1,19 @@
+# GameMaker cache
+*.yyz
+*.yymps
+*.tmp
+
+# Build files
+build/
+bin/
+
+# GameMaker runtime cache
+*.cache
+*.log
+
+# Windows
+Thumbs.db
+.DS_Store
+
+# IDE files
+*.user
