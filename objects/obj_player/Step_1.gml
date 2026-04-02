@@ -1,6 +1,10 @@
 // Inherit the parent event
 event_inherited();
 
+// Check if touching a ladder
+near_ladder = place_meeting(x, y, obj_ladder);
+
+
 // Checks for a jump input
 if (jump_input)
 {

@@ -115,3 +115,17 @@ player_right = function()
 	// Sets input flag back to false
 	right_input = false;
 }
+
+// Ladder system
+on_ladder = false;
+near_ladder = false;
+climb_speed = 5;
+
+// Rope system
+on_rope = false;   // Is the player currently attached to a rope?
+rope_obj = noone;  // Reference to the rope object the player is on
+rope_offset_x = 0;
+rope_offset_y = 0;
+
+horizontal_speed = 0;
+

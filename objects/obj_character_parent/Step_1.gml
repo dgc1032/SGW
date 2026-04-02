@@ -45,4 +45,7 @@ else
 
 // This adds the grav_speed value to the vel_y variable.
 // Doing so applies gravity to the character's vertical velocity, pulling it down each frame to make it fall.
-vel_y += grav_speed;
+if (!on_ladder)
+{
+    vel_y += grav_speed;
+}
