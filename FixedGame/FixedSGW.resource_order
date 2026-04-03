@@ -1,0 +1,19 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Sprites","order":12,"path":"folders/Sprites.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"oBullet","order":8,"path":"objects/oBullet/oBullet.yy",},
+    {"name":"oDead","order":14,"path":"objects/oDead/oDead.yy",},
+    {"name":"oEnemy","order":11,"path":"objects/oEnemy/oEnemy.yy",},
+    {"name":"oGun","order":6,"path":"objects/oGun/oGun.yy",},
+    {"name":"oPlayer","order":3,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"oWall","order":4,"path":"objects/oWall/oWall.yy",},
+    {"name":"shWhite","order":13,"path":"shaders/shWhite/shWhite.yy",},
+    {"name":"sEnemy","order":1,"path":"sprites/sEnemy/sEnemy.yy",},
+    {"name":"sEnemyDead","order":2,"path":"sprites/sEnemyDead/sEnemyDead.yy",},
+    {"name":"sGun","order":3,"path":"sprites/sGun/sGun.yy",},
+    {"name":"sPlayer","order":4,"path":"sprites/sPlayer/sPlayer.yy",},
+    {"name":"sWall","order":5,"path":"sprites/sWall/sWall.yy",},
+  ],
+}

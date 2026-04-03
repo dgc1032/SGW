@@ -1,0 +1,49 @@
+# ============================
+# Linguist / GitHub language stats
+# ============================
+# Ignore .yy files for language statistics
+*.yy linguist-generated=true
+
+# ============================
+# Text files (LF line endings)
+# ============================
+*.gml text eol=lf
+*.yy text eol=lf
+*.yyp text eol=lf
+*.json text eol=lf
+*.resource_order text eol=lf
+
+# ============================
+# Binary files (do not attempt to diff or merge)
+# ============================
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.bmp binary
+*.tga binary
+*.gif binary
+
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.aiff binary
+*.flac binary
+
+*.font binary
+*.ttf binary
+*.otf binary
+
+*.tileset binary
+*.spritesheet binary
+
+# ============================
+# Optional: treat shaders as text
+# ============================
+*.shader text eol=lf
+*.vert text eol=lf
+*.frag text eol=lf
+
+# ============================
+# Default for other files
+# ============================
+* text=auto
