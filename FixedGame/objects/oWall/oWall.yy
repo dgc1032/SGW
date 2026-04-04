@@ -9,7 +9,10 @@
     "name":"BLANK GAME1",
     "path":"BLANK GAME1.yyp",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oSolid",
+    "path":"objects/oSolid/oSolid.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
