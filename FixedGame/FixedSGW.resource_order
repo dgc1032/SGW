@@ -28,6 +28,7 @@
     {"name":"sPlayer","order":4,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"sPortal","order":10,"path":"sprites/sPortal/sPortal.yy",},
     {"name":"sRope","order":9,"path":"sprites/sRope/sRope.yy",},
+    {"name":"sTestClone","order":18,"path":"sprites/sTestClone/sTestClone.yy",},
     {"name":"sWall","order":5,"path":"sprites/sWall/sWall.yy",},
   ],
 }
