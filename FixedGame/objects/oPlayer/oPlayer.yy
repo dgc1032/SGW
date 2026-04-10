@@ -11,8 +11,8 @@
   "name":"oPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"BLANK GAME1",
-    "path":"BLANK GAME1.yyp",
+    "name":"Characters",
+    "path":"folders/Objects/Characters.yy",
   },
   "parentObjectId":null,
   "persistent":true,
@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sPlayer",
-    "path":"sprites/sPlayer/sPlayer.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

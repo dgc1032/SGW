@@ -31,8 +31,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BLANK GAME1",
-    "path":"BLANK GAME1.yyp",
+    "name":"Emily",
+    "path":"folders/Sprites/Emily.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

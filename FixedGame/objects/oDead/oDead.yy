@@ -9,8 +9,8 @@
   "name":"oDead",
   "overriddenProperties":[],
   "parent":{
-    "name":"BLANK GAME1",
-    "path":"BLANK GAME1.yyp",
+    "name":"Characters",
+    "path":"folders/Objects/Characters.yy",
   },
   "parentObjectId":null,
   "persistent":false,

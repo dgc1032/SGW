@@ -5,3 +5,31 @@ walksp = 1.6;
 
 // Ladder variables
 on_ladder = false;
+
+//sets the character after select
+switch (global.character) {
+    case 1:
+        sprite_index = Beatrice_idle;
+    break;
+	case 2:
+        sprite_index = Edgar_idle;
+    break;
+    case 3:
+        sprite_index = Emily_idle;
+    break;
+    case 4:
+        sprite_index = George_idle;
+    break;
+    case 5:
+        sprite_index = Lucky_idle;
+    break;
+    case 6:
+        sprite_index = Mable_idle;
+    break;
+    case 7:
+        sprite_index = Waddles_idle;
+    break;
+    case 8:
+        sprite_index = Wallace_idle;
+    break;
+}

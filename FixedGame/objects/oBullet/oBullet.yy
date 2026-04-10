@@ -10,8 +10,8 @@
   "name":"oBullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"BLANK GAME1",
-    "path":"BLANK GAME1.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

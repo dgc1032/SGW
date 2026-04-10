@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BLANK GAME1",
-    "path":"BLANK GAME1.yyp",
+    "name":"Wallace",
+    "path":"folders/Sprites/Wallace.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

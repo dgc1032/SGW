@@ -9,8 +9,8 @@
   "name":"oRope",
   "overriddenProperties":[],
   "parent":{
-    "name":"BLANK GAME1",
-    "path":"BLANK GAME1.yyp",
+    "name":"Environment",
+    "path":"folders/Objects/Environment.yy",
   },
   "parentObjectId":null,
   "persistent":false,
