@@ -12,15 +12,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"406cfb79-a670-466c-a4a0-1e95f7b0159b","name":"406cfb79-a670-466c-a4a0-1e95f7b0159b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"fad35a20-250a-4068-95c8-ffe7e779e176","name":"fad35a20-250a-4068-95c8-ffe7e779e176","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d7151021-f4bd-4b40-a8a6-20dc364b4ab1","name":"d7151021-f4bd-4b40-a8a6-20dc364b4ab1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"72472098-60c7-45ac-9938-2ad84367cb26","name":"72472098-60c7-45ac-9938-2ad84367cb26","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":200,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"ee0f7a03-2e48-4290-a452-306263722ce3","blendMode":0,"displayName":"default","isLocked":false,"name":"ee0f7a03-2e48-4290-a452-306263722ce3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d7eb0a36-e4ee-4d82-b153-12a4a459b15b","blendMode":0,"displayName":"default","isLocked":false,"name":"d7eb0a36-e4ee-4d82-b153-12a4a459b15b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Wallace_fall",
   "nineSlice":null,
@@ -70,11 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"406cfb79-a670-466c-a4a0-1e95f7b0159b","path":"sprites/Wallace_fall/Wallace_fall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d309e169-9bca-4920-8add-1b32fe4de968","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d7151021-f4bd-4b40-a8a6-20dc364b4ab1","path":"sprites/Wallace_fall/Wallace_fall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"536e5000-b9d3-47f2-8467-1503a9698ada","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fad35a20-250a-4068-95c8-ffe7e779e176","path":"sprites/Wallace_fall/Wallace_fall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"95604f72-15d1-4445-a813-33d841166188","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"72472098-60c7-45ac-9938-2ad84367cb26","path":"sprites/Wallace_fall/Wallace_fall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1dbd6100-a5ff-4599-9668-f0a7aa1611ec","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
