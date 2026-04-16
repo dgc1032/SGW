@@ -10,8 +10,8 @@
     "path":"folders/Objects/PlayerLucky.yy",
   },
   "parentObjectId":{
-    "name":"Opalyer_Lucky",
-    "path":"objects/Opalyer_Lucky/Opalyer_Lucky.yy",
+    "name":"oLucky_player",
+    "path":"objects/oLucky_player/oLucky_player.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

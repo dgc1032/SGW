@@ -9,10 +9,7 @@
     "name":"PlayerMable",
     "path":"folders/Objects/PlayerMable.yy",
   },
-  "parentObjectId":{
-    "name":"Oplayer_Mable",
-    "path":"objects/Oplayer_Mable/Oplayer_Mable.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

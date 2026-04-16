@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Oplayer_Waddles",
-  "eventList":[],
+  "%Name":"oBeatrice_player",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Oplayer_Waddles",
+  "name":"oBeatrice_player",
   "overriddenProperties":[],
   "parent":{
     "name":"Characters",
     "path":"folders/Objects/Characters.yy",
   },
   "parentObjectId":{
-    "name":"oWaddles",
-    "path":"objects/oWaddles/oWaddles.yy",
+    "name":"OBreatrice",
+    "path":"objects/OBreatrice/OBreatrice.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

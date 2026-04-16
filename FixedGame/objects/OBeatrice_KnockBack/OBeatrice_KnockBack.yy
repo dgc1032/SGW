@@ -10,8 +10,8 @@
     "path":"folders/Objects/PlayerBeatrice.yy",
   },
   "parentObjectId":{
-    "name":"Oplayer_Beatrice",
-    "path":"objects/Oplayer_Beatrice/Oplayer_Beatrice.yy",
+    "name":"oBeatrice_player",
+    "path":"objects/oBeatrice_player/oBeatrice_player.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

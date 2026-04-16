@@ -9,10 +9,7 @@
     "name":"PlayerWaddles",
     "path":"folders/Objects/PlayerWaddles.yy",
   },
-  "parentObjectId":{
-    "name":"Oplayer_Waddles",
-    "path":"objects/Oplayer_Waddles/Oplayer_Waddles.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -10,8 +10,8 @@
     "path":"folders/Objects/PlayerEdgar.yy",
   },
   "parentObjectId":{
-    "name":"Oplayer_Edgar",
-    "path":"objects/Oplayer_Edgar/Oplayer_Edgar.yy",
+    "name":"oEdgar_player",
+    "path":"objects/oEdgar_player/oEdgar_player.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

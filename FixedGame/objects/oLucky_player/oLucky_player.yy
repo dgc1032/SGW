@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Oplayer_Wallace",
+  "%Name":"oLucky_player",
   "eventList":[],
   "managed":true,
-  "name":"Oplayer_Wallace",
+  "name":"oLucky_player",
   "overriddenProperties":[],
   "parent":{
     "name":"Characters",
     "path":"folders/Objects/Characters.yy",
   },
   "parentObjectId":{
-    "name":"oWallace",
-    "path":"objects/oWallace/oWallace.yy",
+    "name":"OLucky",
+    "path":"objects/OLucky/OLucky.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
