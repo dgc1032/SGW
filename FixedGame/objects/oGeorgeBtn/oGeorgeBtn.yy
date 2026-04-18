@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"George_sit",
-    "path":"sprites/George_sit/George_sit.yy",
+    "name":"George_sit_btn",
+    "path":"sprites/George_sit_btn/George_sit_btn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

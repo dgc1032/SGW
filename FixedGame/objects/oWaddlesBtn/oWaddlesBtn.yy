@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Waddles_sit",
-    "path":"sprites/Waddles_sit/Waddles_sit.yy",
+    "name":"Waddles_sit_btn",
+    "path":"sprites/Waddles_sit_btn/Waddles_sit_btn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Wallace_sit",
-    "path":"sprites/Wallace_sit/Wallace_sit.yy",
+    "name":"Wallace_sit_btn",
+    "path":"sprites/Wallace_sit_btn/Wallace_sit_btn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

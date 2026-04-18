@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Emily_sit",
-    "path":"sprites/Emily_sit/Emily_sit.yy",
+    "name":"Emily_sit_btn",
+    "path":"sprites/Emily_sit_btn/Emily_sit_btn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

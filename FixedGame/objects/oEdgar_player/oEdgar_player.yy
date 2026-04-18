@@ -9,10 +9,7 @@
     "name":"Characters",
     "path":"folders/Objects/Characters.yy",
   },
-  "parentObjectId":{
-    "name":"OEdgar",
-    "path":"objects/OEdgar/OEdgar.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

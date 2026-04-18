@@ -1,2 +1,2 @@
 global.character = 2;
-room_goto(rmTutorial);
+room_goto(rmLvl1);
