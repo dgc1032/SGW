@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oEmily_player",
+  "%Name":"oEmily_umberella",
   "eventList":[],
   "managed":true,
-  "name":"oEmily_player",
+  "name":"oEmily_umberella",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/Objects/Characters.yy",
+    "name":"EmilyPlayer",
+    "path":"folders/Objects/Characters/EmilyPlayer.yy",
   },
   "parentObjectId":{
-    "name":"oEmily_idle",
-    "path":"objects/oEmily_idle/oEmily_idle.yy",
+    "name":"oEmily_player",
+    "path":"objects/oEmily_player/oEmily_player.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Emily_umberella",
+    "path":"sprites/Emily_umberella/Emily_umberella.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

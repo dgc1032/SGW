@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oEmily_player",
+  "%Name":"oEmily_idle",
   "eventList":[],
   "managed":true,
-  "name":"oEmily_player",
+  "name":"oEmily_idle",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/Objects/Characters.yy",
+    "name":"EmilyPlayer",
+    "path":"folders/Objects/Characters/EmilyPlayer.yy",
   },
-  "parentObjectId":{
-    "name":"oEmily_idle",
-    "path":"objects/oEmily_idle/oEmily_idle.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Emily_idle",
+    "path":"sprites/Emily_idle/Emily_idle.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
