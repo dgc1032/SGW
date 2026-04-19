@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oBeatrice_player",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oBeatrice_KnockBack",
+  "eventList":[],
   "managed":true,
-  "name":"oBeatrice_player",
+  "name":"oBeatrice_KnockBack",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/Objects/Characters.yy",
+    "name":"BeatricePlayer",
+    "path":"folders/Objects/Characters/BeatricePlayer.yy",
   },
   "parentObjectId":{
-    "name":"oBeatrice_idle",
-    "path":"objects/oBeatrice_idle/oBeatrice_idle.yy",
+    "name":"oBeatrice_player",
+    "path":"objects/oBeatrice_player/oBeatrice_player.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Beatrice_KockBack",
+    "path":"sprites/Beatrice_KockBack/Beatrice_KockBack.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
