@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oLucky_player",
+  "%Name":"oLucky_walk",
   "eventList":[],
   "managed":true,
-  "name":"oLucky_player",
+  "name":"oLucky_walk",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/Objects/Characters.yy",
+    "name":"LuckyPlayer",
+    "path":"folders/Objects/Characters/LuckyPlayer.yy",
   },
   "parentObjectId":{
-    "name":"oLucky_idle",
-    "path":"objects/oLucky_idle/oLucky_idle.yy",
+    "name":"oLucky_player",
+    "path":"objects/oLucky_player/oLucky_player.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Lucky_walk",
+    "path":"sprites/Lucky_walk/Lucky_walk.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
