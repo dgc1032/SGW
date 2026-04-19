@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Object52",
+  "%Name":"oGeorge_KnockBack",
   "eventList":[],
   "managed":true,
-  "name":"Object52",
+  "name":"oGeorge_KnockBack",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/Objects/Characters.yy",
+    "name":"GeorgePLayer",
+    "path":"folders/Objects/Characters/GeorgePLayer.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oGeorge_player",
+    "path":"objects/oGeorge_player/oGeorge_player.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"George_KnockBack",
+    "path":"sprites/George_KnockBack/George_KnockBack.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
