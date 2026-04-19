@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oEdgar_player",
+  "%Name":"oEdgar_fall",
   "eventList":[],
   "managed":true,
-  "name":"oEdgar_player",
+  "name":"oEdgar_fall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/Objects/Characters.yy",
+    "name":"EdgarPlayer",
+    "path":"folders/Objects/Characters/EdgarPlayer.yy",
   },
   "parentObjectId":{
-    "name":"oEdgar_idle",
-    "path":"objects/oEdgar_idle/oEdgar_idle.yy",
+    "name":"oEdgar_player",
+    "path":"objects/oEdgar_player/oEdgar_player.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Edgar_fall",
+    "path":"sprites/Edgar_fall/Edgar_fall.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

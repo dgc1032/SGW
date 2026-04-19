@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oEdgar_player",
+  "%Name":"Object52",
   "eventList":[],
   "managed":true,
-  "name":"oEdgar_player",
+  "name":"Object52",
   "overriddenProperties":[],
   "parent":{
     "name":"Characters",
     "path":"folders/Objects/Characters.yy",
   },
-  "parentObjectId":{
-    "name":"oEdgar_idle",
-    "path":"objects/oEdgar_idle/oEdgar_idle.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
