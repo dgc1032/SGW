@@ -1,11 +1,11 @@
 {
   "$GMSprite":"v2",
   "%Name":"Monster",
-  "bboxMode":0,
-  "bbox_bottom":736,
+  "bboxMode":2,
+  "bbox_bottom":368,
   "bbox_left":0,
-  "bbox_right":625,
-  "bbox_top":0,
+  "bbox_right":235,
+  "bbox_top":2,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -27,7 +27,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":737,
+  "height":369,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"ea5ab0fc-1735-4841-baaa-8325026c4584","blendMode":0,"displayName":"default","isLocked":false,"name":"ea5ab0fc-1735-4841-baaa-8325026c4584","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -130,5 +130,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":626,
+  "width":313,
 }

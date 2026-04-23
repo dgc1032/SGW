@@ -1,3 +1,19 @@
+if (!monster_spawned) {
+    spawn_timer--;
+
+    if (spawn_timer <= 0) {
+        monster_spawned = true;
+    }
+}
+
+if (invincible) {
+    inv_timer--;
+
+    if (inv_timer <= 0) {
+        invincible = false;
+    }
+}
+
 // Get Player Input
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
@@ -93,3 +109,9 @@ if (on_ladder) {
     y += vsp;
 }
 
+if (knockback > 0) {
+    x += lengthdir_x(knockback, knock_dir);
+    y += lengthdir_y(knockback, knock_dir);
+
+    knockback -= 1;
+}

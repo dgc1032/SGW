@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"Monster_leftarm",
   "bboxMode":0,
-  "bbox_bottom":232,
-  "bbox_left":12,
-  "bbox_right":256,
+  "bbox_bottom":115,
+  "bbox_left":6,
+  "bbox_right":127,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -19,7 +19,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":300,
+  "height":150,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"ebb28b4d-6cea-4c00-adde-f500288ab5be","blendMode":0,"displayName":"default","isLocked":false,"name":"ebb28b4d-6cea-4c00-adde-f500288ab5be","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -98,5 +98,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":300,
+  "width":150,
 }

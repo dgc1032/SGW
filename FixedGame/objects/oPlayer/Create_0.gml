@@ -33,3 +33,15 @@ switch (global.character) {
         sprite_index = Wallace_idle;
     break;
 }
+
+lives = 3;
+lives = max(0, lives);
+
+invincible = false;
+inv_timer = 0;
+
+spawn_timer = room_speed * 3; // 3 second delay
+monster_spawned = false;
+
+knockback = 0;
+knock_dir = 0;
