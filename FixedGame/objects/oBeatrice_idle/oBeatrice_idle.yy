@@ -9,7 +9,10 @@
     "name":"BeatricePlayer",
     "path":"folders/Objects/Characters/BeatricePlayer.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oBeatrice_player",
+    "path":"objects/oBeatrice_player/oBeatrice_player.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

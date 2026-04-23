@@ -6,12 +6,12 @@
   "name":"oGeorge_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/Objects/Characters.yy",
+    "name":"GeorgePLayer",
+    "path":"folders/Objects/Characters/GeorgePLayer.yy",
   },
   "parentObjectId":{
-    "name":"oGeorge_idle",
-    "path":"objects/oGeorge_idle/oGeorge_idle.yy",
+    "name":"oPlayer",
+    "path":"objects/oPlayer/oPlayer.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

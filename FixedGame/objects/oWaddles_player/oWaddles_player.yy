@@ -6,12 +6,12 @@
   "name":"oWaddles_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/Objects/Characters.yy",
+    "name":"WaddlesPlayer",
+    "path":"folders/Objects/Characters/WaddlesPlayer.yy",
   },
   "parentObjectId":{
-    "name":"oWaddle_idle",
-    "path":"objects/oWaddle_idle/oWaddle_idle.yy",
+    "name":"oPlayer",
+    "path":"objects/oPlayer/oPlayer.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

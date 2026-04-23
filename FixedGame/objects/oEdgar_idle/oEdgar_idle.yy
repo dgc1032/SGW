@@ -9,7 +9,10 @@
     "name":"EdgarPlayer",
     "path":"folders/Objects/Characters/EdgarPlayer.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oEdgar_player",
+    "path":"objects/oEdgar_player/oEdgar_player.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

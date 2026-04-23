@@ -6,12 +6,12 @@
   "name":"oMable_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/Objects/Characters.yy",
+    "name":"MablePlayer",
+    "path":"folders/Objects/Characters/MablePlayer.yy",
   },
   "parentObjectId":{
-    "name":"oMable_idle",
-    "path":"objects/oMable_idle/oMable_idle.yy",
+    "name":"oPlayer",
+    "path":"objects/oPlayer/oPlayer.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

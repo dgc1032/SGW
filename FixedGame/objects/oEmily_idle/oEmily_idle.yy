@@ -9,7 +9,10 @@
     "name":"EmilyPlayer",
     "path":"folders/Objects/Characters/EmilyPlayer.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oEmily_player",
+    "path":"objects/oEmily_player/oEmily_player.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

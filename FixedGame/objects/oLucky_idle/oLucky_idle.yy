@@ -9,7 +9,10 @@
     "name":"LuckyPlayer",
     "path":"folders/Objects/Characters/LuckyPlayer.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oLucky_player",
+    "path":"objects/oLucky_player/oLucky_player.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

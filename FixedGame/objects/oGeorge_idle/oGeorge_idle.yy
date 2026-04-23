@@ -9,7 +9,10 @@
     "name":"GeorgePLayer",
     "path":"folders/Objects/Characters/GeorgePLayer.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oGeorge_player",
+    "path":"objects/oGeorge_player/oGeorge_player.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

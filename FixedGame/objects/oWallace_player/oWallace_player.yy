@@ -6,12 +6,12 @@
   "name":"oWallace_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/Objects/Characters.yy",
+    "name":"WallacePlayer",
+    "path":"folders/Objects/Characters/WallacePlayer.yy",
   },
   "parentObjectId":{
-    "name":"oWallace_idle",
-    "path":"objects/oWallace_idle/oWallace_idle.yy",
+    "name":"oPlayer",
+    "path":"objects/oPlayer/oPlayer.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

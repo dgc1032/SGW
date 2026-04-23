@@ -6,12 +6,12 @@
   "name":"oEmily_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/Objects/Characters.yy",
+    "name":"EmilyPlayer",
+    "path":"folders/Objects/Characters/EmilyPlayer.yy",
   },
   "parentObjectId":{
-    "name":"oEmily_idle",
-    "path":"objects/oEmily_idle/oEmily_idle.yy",
+    "name":"oPlayer",
+    "path":"objects/oPlayer/oPlayer.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

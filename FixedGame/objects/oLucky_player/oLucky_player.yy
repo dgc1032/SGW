@@ -6,12 +6,12 @@
   "name":"oLucky_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/Objects/Characters.yy",
+    "name":"LuckyPlayer",
+    "path":"folders/Objects/Characters/LuckyPlayer.yy",
   },
   "parentObjectId":{
-    "name":"oLucky_idle",
-    "path":"objects/oLucky_idle/oLucky_idle.yy",
+    "name":"oPlayer",
+    "path":"objects/oPlayer/oPlayer.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -9,7 +9,10 @@
     "name":"WallacePlayer",
     "path":"folders/Objects/Characters/WallacePlayer.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oWallace_player",
+    "path":"objects/oWallace_player/oWallace_player.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
