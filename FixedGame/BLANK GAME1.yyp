@@ -264,6 +264,7 @@
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"sPortal","path":"sprites/sPortal/sPortal.yy",},},
     {"id":{"name":"Sprite112","path":"sprites/Sprite112/Sprite112.yy",},},
+    {"id":{"name":"Sprite119","path":"sprites/Sprite119/Sprite119.yy",},},
     {"id":{"name":"sRope","path":"sprites/sRope/sRope.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"Waddles_climb","path":"sprites/Waddles_climb/Waddles_climb.yy",},},

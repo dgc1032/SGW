@@ -226,6 +226,7 @@
     {"name":"sPlayer","order":8,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"sPortal","order":6,"path":"sprites/sPortal/sPortal.yy",},
     {"name":"Sprite112","order":120,"path":"sprites/Sprite112/Sprite112.yy",},
+    {"name":"Sprite119","order":20,"path":"sprites/Sprite119/Sprite119.yy",},
     {"name":"sRope","order":3,"path":"sprites/sRope/sRope.yy",},
     {"name":"sWall","order":9,"path":"sprites/sWall/sWall.yy",},
     {"name":"Waddles_crouch","order":1,"path":"sprites/Waddles_crouch/Waddles_crouch.yy",},
