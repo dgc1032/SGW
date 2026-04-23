@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"oBeatrice_roll",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":74,"eventType":9,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"oBeatrice_roll",
   "overriddenProperties":[],
