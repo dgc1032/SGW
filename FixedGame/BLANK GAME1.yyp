@@ -179,6 +179,7 @@
     {"id":{"name":"rmGameOver","path":"rooms/rmGameOver/rmGameOver.yy",},},
     {"id":{"name":"rmLvl1","path":"rooms/rmLvl1/rmLvl1.yy",},},
     {"id":{"name":"rmLvl2","path":"rooms/rmLvl2/rmLvl2.yy",},},
+    {"id":{"name":"rmLvl3","path":"rooms/rmLvl3/rmLvl3.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},},
     {"id":{"name":"Bat_enemy","path":"sprites/Bat_enemy/Bat_enemy.yy",},},
@@ -321,6 +322,7 @@
     {"roomId":{"name":"rmLvl1","path":"rooms/rmLvl1/rmLvl1.yy",},},
     {"roomId":{"name":"rmLvl2","path":"rooms/rmLvl2/rmLvl2.yy",},},
     {"roomId":{"name":"rmGameOver","path":"rooms/rmGameOver/rmGameOver.yy",},},
+    {"roomId":{"name":"rmLvl3","path":"rooms/rmLvl3/rmLvl3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
