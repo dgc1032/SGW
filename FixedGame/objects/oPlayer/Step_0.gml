@@ -84,7 +84,7 @@ if (on_ladder) {
     var down = keyboard_check(ord("S"));
 
     if (up) {
-        y -= walksp;  // move up
+        y -= walksp * 2;  // move up
     } else if (down) {
         y += walksp;  // move down
     }
