@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Beatrice_sit",
-    "path":"sprites/Beatrice_sit/Beatrice_sit.yy",
+    "name":"Beatrice_sit_btn",
+    "path":"sprites/Beatrice_sit_btn/Beatrice_sit_btn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

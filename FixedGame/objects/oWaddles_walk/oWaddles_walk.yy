@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Wadlles_walk",
-    "path":"sprites/Wadlles_walk/Wadlles_walk.yy",
+    "name":"Waddles_walk",
+    "path":"sprites/Waddles_walk/Waddles_walk.yy",
   },
   "spriteMaskId":null,
   "visible":true,
