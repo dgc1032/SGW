@@ -21,6 +21,8 @@ key_jump = keyboard_check(vk_space);
 
 
 
+
+
 // Calculate Movement
 var move = key_right - key_left;
 
