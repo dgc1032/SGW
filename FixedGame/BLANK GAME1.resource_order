@@ -12,24 +12,34 @@
     {"name":"WaddlesPlayer","order":16,"path":"folders/Objects/Characters/WaddlesPlayer.yy",},
     {"name":"WallacePlayer","order":19,"path":"folders/Objects/Characters/WallacePlayer.yy",},
     {"name":"CharSelBtns","order":6,"path":"folders/Objects/CharSelBtns.yy",},
+    {"name":"Ememys","order":17,"path":"folders/Objects/Ememys.yy",},
     {"name":"Environment","order":4,"path":"folders/Objects/Environment.yy",},
+    {"name":"Jumpscares","order":21,"path":"folders/Objects/Jumpscares.yy",},
     {"name":"Sprites","order":116,"path":"folders/Sprites.yy",},
     {"name":"Beatrice","order":11,"path":"folders/Sprites/Beatrice.yy",},
     {"name":"Edgar","order":18,"path":"folders/Sprites/Edgar.yy",},
     {"name":"Emily","order":17,"path":"folders/Sprites/Emily.yy",},
     {"name":"Enemys","order":22,"path":"folders/Sprites/Enemys.yy",},
+<<<<<<< HEAD
     {"name":"Environment","order":26,"path":"folders/Sprites/Environment.yy",},
     {"name":"Blocks","order":1,"path":"folders/Sprites/Environment/Blocks.yy",},
+=======
+>>>>>>> e57ee6270f3c34ebf528329ac35350e4aff3d6af
     {"name":"George","order":16,"path":"folders/Sprites/George.yy",},
     {"name":"Lucky","order":15,"path":"folders/Sprites/Lucky.yy",},
     {"name":"Mable","order":14,"path":"folders/Sprites/Mable.yy",},
+    {"name":"Monster_jumpscares","order":36,"path":"folders/Sprites/Monster_jumpscares.yy",},
     {"name":"Monster","order":19,"path":"folders/Sprites/Monster.yy",},
     {"name":"Waddles","order":12,"path":"folders/Sprites/Waddles.yy",},
     {"name":"Wallace","order":13,"path":"folders/Sprites/Wallace.yy",},
   ],
   "ResourceOrderSettings":[
+<<<<<<< HEAD
     {"name":"Font1","order":127,"path":"fonts/Font1/Font1.yy",},
     {"name":"oBearTrap","order":18,"path":"objects/oBearTrap/oBearTrap.yy",},
+=======
+    {"name":"obeartrap","order":14,"path":"objects/obeartrap/obeartrap.yy",},
+>>>>>>> e57ee6270f3c34ebf528329ac35350e4aff3d6af
     {"name":"oBeatrice_climb","order":1,"path":"objects/oBeatrice_climb/oBeatrice_climb.yy",},
     {"name":"oBeatrice_crouch","order":2,"path":"objects/oBeatrice_crouch/oBeatrice_crouch.yy",},
     {"name":"oBeatrice_fall","order":3,"path":"objects/oBeatrice_fall/oBeatrice_fall.yy",},
@@ -89,6 +99,7 @@
     {"name":"oGeorgeBtn","order":3,"path":"objects/oGeorgeBtn/oGeorgeBtn.yy",},
     {"name":"oGoerge_roll","order":5,"path":"objects/oGoerge_roll/oGoerge_roll.yy",},
     {"name":"oGun","order":2,"path":"objects/oGun/oGun.yy",},
+    {"name":"oHorn_Jumpscare","order":3,"path":"objects/oHorn_Jumpscare/oHorn_Jumpscare.yy",},
     {"name":"oLadder","order":1,"path":"objects/oLadder/oLadder.yy",},
     {"name":"oLeft_arm","order":11,"path":"objects/oLeft_arm/oLeft_arm.yy",},
     {"name":"oLucky_climb","order":1,"path":"objects/oLucky_climb/oLucky_climb.yy",},
@@ -117,15 +128,25 @@
     {"name":"oMable_walk","order":10,"path":"objects/oMable_walk/oMable_walk.yy",},
     {"name":"oMable_zap","order":11,"path":"objects/oMable_zap/oMable_zap.yy",},
     {"name":"oMableBtn","order":5,"path":"objects/oMableBtn/oMableBtn.yy",},
+    {"name":"oMini_enemy","order":4,"path":"objects/oMini_enemy/oMini_enemy.yy",},
+    {"name":"oMisquieto_enemy","order":1,"path":"objects/oMisquieto_enemy/oMisquieto_enemy.yy",},
     {"name":"oMonster","order":8,"path":"objects/oMonster/oMonster.yy",},
     {"name":"oMoving_Platform","order":2,"path":"objects/oMoving_Platform/oMoving_Platform.yy",},
+    {"name":"oMushroom_enemy","order":3,"path":"objects/oMushroom_enemy/oMushroom_enemy.yy",},
+    {"name":"oPausemenu_Jumpscare","order":1,"path":"objects/oPausemenu_Jumpscare/oPausemenu_Jumpscare.yy",},
     {"name":"oPlayer","order":9,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"oPortal","order":3,"path":"objects/oPortal/oPortal.yy",},
     {"name":"oRight_arm","order":12,"path":"objects/oRight_arm/oRight_arm.yy",},
     {"name":"oRope","order":5,"path":"objects/oRope/oRope.yy",},
+    {"name":"oShop_guy","order":5,"path":"objects/oShop_guy/oShop_guy.yy",},
     {"name":"oSolid","order":3,"path":"objects/oSolid/oSolid.yy",},
+<<<<<<< HEAD
     {"name":"oTwinkle","order":17,"path":"objects/oTwinkle/oTwinkle.yy",},
     {"name":"oTwinklesBox","order":15,"path":"objects/oTwinklesBox/oTwinklesBox.yy",},
+=======
+    {"name":"oSpider_enemy","order":2,"path":"objects/oSpider_enemy/oSpider_enemy.yy",},
+    {"name":"oUmberella","order":15,"path":"objects/oUmberella/oUmberella.yy",},
+>>>>>>> e57ee6270f3c34ebf528329ac35350e4aff3d6af
     {"name":"oWaddles_climb","order":1,"path":"objects/oWaddles_climb/oWaddles_climb.yy",},
     {"name":"oWaddles_crouch","order":2,"path":"objects/oWaddles_crouch/oWaddles_crouch.yy",},
     {"name":"oWaddles_fall","order":3,"path":"objects/oWaddles_fall/oWaddles_fall.yy",},
@@ -153,10 +174,12 @@
     {"name":"oWallace_walk","order":10,"path":"objects/oWallace_walk/oWallace_walk.yy",},
     {"name":"oWallace_zap","order":11,"path":"objects/oWallace_zap/oWallace_zap.yy",},
     {"name":"oWallaceBtn","order":7,"path":"objects/oWallaceBtn/oWallaceBtn.yy",},
+    {"name":"oWing_Jumpscare","order":2,"path":"objects/oWing_Jumpscare/oWing_Jumpscare.yy",},
     {"name":"rmCharSel","order":118,"path":"rooms/rmCharSel/rmCharSel.yy",},
     {"name":"rmGameOver","order":122,"path":"rooms/rmGameOver/rmGameOver.yy",},
     {"name":"rmLvl1","order":47,"path":"rooms/rmLvl1/rmLvl1.yy",},
     {"name":"rmLvl2","order":121,"path":"rooms/rmLvl2/rmLvl2.yy",},
+    {"name":"rmLvl3","order":127,"path":"rooms/rmLvl3/rmLvl3.yy",},
     {"name":"scr_macros","order":80,"path":"scripts/scr_macros/scr_macros.yy",},
     {"name":"shWhite","order":65,"path":"shaders/shWhite/shWhite.yy",},
     {"name":"Beatrice_crouch","order":1,"path":"sprites/Beatrice_crouch/Beatrice_crouch.yy",},
@@ -233,19 +256,33 @@
     {"name":"Mable_walk","order":10,"path":"sprites/Mable_walk/Mable_walk.yy",},
     {"name":"Mable_zap","order":11,"path":"sprites/Mable_zap/Mable_zap.yy",},
     {"name":"Mesquito_enemy","order":1,"path":"sprites/Mesquito_enemy/Mesquito_enemy.yy",},
+    {"name":"mHorn_jumpscare","order":1,"path":"sprites/mHorn_jumpscare/mHorn_jumpscare.yy",},
     {"name":"mini_enemy","order":2,"path":"sprites/mini_enemy/mini_enemy.yy",},
     {"name":"Monster_leftarm","order":1,"path":"sprites/Monster_leftarm/Monster_leftarm.yy",},
     {"name":"Monster_rightArm","order":2,"path":"sprites/Monster_rightArm/Monster_rightArm.yy",},
+    {"name":"mPause_jumpscare","order":2,"path":"sprites/mPause_jumpscare/mPause_jumpscare.yy",},
     {"name":"Mushroom_enemy","order":3,"path":"sprites/Mushroom_enemy/Mushroom_enemy.yy",},
     {"name":"Mushroom_shop","order":4,"path":"sprites/Mushroom_shop/Mushroom_shop.yy",},
+<<<<<<< HEAD
+=======
+    {"name":"mWing_jumpscare","order":3,"path":"sprites/mWing_jumpscare/mWing_jumpscare.yy",},
+>>>>>>> e57ee6270f3c34ebf528329ac35350e4aff3d6af
     {"name":"Right_arm","order":24,"path":"sprites/Right_arm/Right_arm.yy",},
     {"name":"sBackground","order":20,"path":"sprites/sBackground/sBackground.yy",},
+    {"name":"sBacktree2","order":26,"path":"sprites/sBacktree2/sBacktree2.yy",},
+    {"name":"sBeartrap","order":37,"path":"sprites/sBeartrap/sBeartrap.yy",},
     {"name":"sBridge","order":1,"path":"sprites/sBridge/sBridge.yy",},
     {"name":"sEnemy","order":7,"path":"sprites/sEnemy/sEnemy.yy",},
     {"name":"sEnemyDead","order":2,"path":"sprites/sEnemyDead/sEnemyDead.yy",},
+<<<<<<< HEAD
     {"name":"sFire","order":27,"path":"sprites/sFire/sFire.yy",},
+=======
+>>>>>>> e57ee6270f3c34ebf528329ac35350e4aff3d6af
     {"name":"sFLytrap","order":25,"path":"sprites/sFLytrap/sFLytrap.yy",},
     {"name":"sForestBackground","order":123,"path":"sprites/sForestBackground/sForestBackground.yy",},
+    {"name":"sFrontTree1","order":27,"path":"sprites/sFrontTree1/sFrontTree1.yy",},
+    {"name":"sFrontTree2","order":30,"path":"sprites/sFrontTree2/sFrontTree2.yy",},
+    {"name":"sFrontTree3","order":31,"path":"sprites/sFrontTree3/sFrontTree3.yy",},
     {"name":"sGun","order":4,"path":"sprites/sGun/sGun.yy",},
     {"name":"sLadder","order":5,"path":"sprites/sLadder/sLadder.yy",},
     {"name":"sMoving_Platform","order":10,"path":"sprites/sMoving_Platform/sMoving_Platform.yy",},
@@ -258,8 +295,12 @@
     {"name":"sShopBackground","order":126,"path":"sprites/sShopBackground/sShopBackground.yy",},
     {"name":"sTree1","order":124,"path":"sprites/sTree1/sTree1.yy",},
     {"name":"sTree2","order":125,"path":"sprites/sTree2/sTree2.yy",},
+<<<<<<< HEAD
     {"name":"sTwinkle","order":28,"path":"sprites/sTwinkle/sTwinkle.yy",},
     {"name":"sTwinklesBox","order":29,"path":"sprites/sTwinklesBox/sTwinklesBox.yy",},
+=======
+    {"name":"sUmberella","order":38,"path":"sprites/sUmberella/sUmberella.yy",},
+>>>>>>> e57ee6270f3c34ebf528329ac35350e4aff3d6af
     {"name":"sWall","order":9,"path":"sprites/sWall/sWall.yy",},
     {"name":"Waddles_crouch","order":1,"path":"sprites/Waddles_crouch/Waddles_crouch.yy",},
     {"name":"Waddles_fall","order":2,"path":"sprites/Waddles_fall/Waddles_fall.yy",},
