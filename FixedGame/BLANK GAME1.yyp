@@ -49,13 +49,8 @@
   },
   "name":"BLANK GAME1",
   "resources":[
-<<<<<<< HEAD
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
-    {"id":{"name":"oBearTrap","path":"objects/oBearTrap/oBearTrap.yy",},},
-=======
     {"id":{"name":"oBat_enemy","path":"objects/oBat_enemy/oBat_enemy.yy",},},
-    {"id":{"name":"obeartrap","path":"objects/obeartrap/obeartrap.yy",},},
->>>>>>> e57ee6270f3c34ebf528329ac35350e4aff3d6af
     {"id":{"name":"oBeatrice_climb","path":"objects/oBeatrice_climb/oBeatrice_climb.yy",},},
     {"id":{"name":"oBeatrice_crouch","path":"objects/oBeatrice_crouch/oBeatrice_crouch.yy",},},
     {"id":{"name":"oBeatrice_fall","path":"objects/oBeatrice_fall/oBeatrice_fall.yy",},},
@@ -70,11 +65,8 @@
     {"id":{"name":"oBeatrice_walk","path":"objects/oBeatrice_walk/oBeatrice_walk.yy",},},
     {"id":{"name":"oBeatrice_zap","path":"objects/oBeatrice_zap/oBeatrice_zap.yy",},},
     {"id":{"name":"oBeatriceBtn","path":"objects/oBeatriceBtn/oBeatriceBtn.yy",},},
-<<<<<<< HEAD
     {"id":{"name":"obj_mud","path":"objects/obj_mud/obj_mud.yy",},},
-=======
     {"id":{"name":"oBite_Jumpscare","path":"objects/oBite_Jumpscare/oBite_Jumpscare.yy",},},
->>>>>>> e57ee6270f3c34ebf528329ac35350e4aff3d6af
     {"id":{"name":"oBridge","path":"objects/oBridge/oBridge.yy",},},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
@@ -174,13 +166,10 @@
     {"id":{"name":"oRope","path":"objects/oRope/oRope.yy",},},
     {"id":{"name":"oShop_guy","path":"objects/oShop_guy/oShop_guy.yy",},},
     {"id":{"name":"oSolid","path":"objects/oSolid/oSolid.yy",},},
-<<<<<<< HEAD
     {"id":{"name":"oTwinkle","path":"objects/oTwinkle/oTwinkle.yy",},},
     {"id":{"name":"oTwinklesBox","path":"objects/oTwinklesBox/oTwinklesBox.yy",},},
-=======
     {"id":{"name":"oSpider_enemy","path":"objects/oSpider_enemy/oSpider_enemy.yy",},},
     {"id":{"name":"oUmberella","path":"objects/oUmberella/oUmberella.yy",},},
->>>>>>> e57ee6270f3c34ebf528329ac35350e4aff3d6af
     {"id":{"name":"oWaddle_idle","path":"objects/oWaddle_idle/oWaddle_idle.yy",},},
     {"id":{"name":"oWaddles_climb","path":"objects/oWaddles_climb/oWaddles_climb.yy",},},
     {"id":{"name":"oWaddles_crouch","path":"objects/oWaddles_crouch/oWaddles_crouch.yy",},},
@@ -218,7 +207,6 @@
     {"id":{"name":"rmLvl3","path":"rooms/rmLvl3/rmLvl3.yy",},},
     {"id":{"name":"rmLvl4","path":"rooms/rmLvl4/rmLvl4.yy",},},
     {"id":{"name":"rmLvl5","path":"rooms/rmLvl5/rmLvl5.yy",},},
-    {"id":{"name":"Shop","path":"rooms/Shop/Shop.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},},
     {"id":{"name":"Bat_enemy","path":"sprites/Bat_enemy/Bat_enemy.yy",},},
@@ -339,12 +327,9 @@
     {"id":{"name":"sShopBackground","path":"sprites/sShopBackground/sShopBackground.yy",},},
     {"id":{"name":"sTree1","path":"sprites/sTree1/sTree1.yy",},},
     {"id":{"name":"sTree2","path":"sprites/sTree2/sTree2.yy",},},
-<<<<<<< HEAD
     {"id":{"name":"sTwinkle","path":"sprites/sTwinkle/sTwinkle.yy",},},
     {"id":{"name":"sTwinklesBox","path":"sprites/sTwinklesBox/sTwinklesBox.yy",},},
-=======
     {"id":{"name":"sUmberella","path":"sprites/sUmberella/sUmberella.yy",},},
->>>>>>> e57ee6270f3c34ebf528329ac35350e4aff3d6af
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"Waddles_climb","path":"sprites/Waddles_climb/Waddles_climb.yy",},},
     {"id":{"name":"Waddles_crouch","path":"sprites/Waddles_crouch/Waddles_crouch.yy",},},
@@ -383,7 +368,6 @@
     {"roomId":{"name":"rmLvl4","path":"rooms/rmLvl4/rmLvl4.yy",},},
     {"roomId":{"name":"rmLvl3","path":"rooms/rmLvl3/rmLvl3.yy",},},
     {"roomId":{"name":"rmLvl5","path":"rooms/rmLvl5/rmLvl5.yy",},},
-    {"roomId":{"name":"Shop","path":"rooms/Shop/Shop.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
