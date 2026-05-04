@@ -86,18 +86,45 @@ if (on_ladder) {
     var down = keyboard_check(ord("S"));
 
     if (up) {
-        y -= walksp;  // move up
+        y -= walksp * 2;  // move up
     } else if (down) {
         y += walksp;  // move down
     }
 } else {
     // --- Normal Movement ---
-    var key_left = keyboard_check(ord("A"));
-    var key_right = keyboard_check(ord("D"));
-    var key_jump = keyboard_check(vk_space);
+var key_left = keyboard_check(ord("A"));
+var key_right = keyboard_check(ord("D"));
+var key_jump = keyboard_check(vk_space);
+var key_sprint = keyboard_check(vk_shift);
 
-    hsp = (key_right - key_left) * walksp;
-    vsp += grv;
+// Base values
+var current_speed = walksp;
+var current_jump = -5.5;
+
+// Sprint (only if moving and not trapped)
+is_sprinting = false;
+
+if (key_sprint && (key_left || key_right) && !trapped) {
+    current_speed *= sprint_mult;
+    is_sprinting = true;
+}
+
+// Trap modifiers (override sprint feel a bit)
+if (trapped) {
+    current_speed *= trap_slow;
+    current_jump *= trap_jump_reduce;
+}
+
+// Apply movement
+hsp = (key_right - key_left) * current_speed;
+vsp += grv;
+
+// Jump
+if (place_meeting(x, y + 1, oSolid)) {
+    if (key_jump) {
+        vsp = current_jump;
+    }
+}
 
     // Horizontal collision
     if (place_meeting(x + hsp, y, oSolid)) {

@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Edgar_sit",
-    "path":"sprites/Edgar_sit/Edgar_sit.yy",
+    "name":"Edgar_sit_btn",
+    "path":"sprites/Edgar_sit_btn/Edgar_sit_btn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

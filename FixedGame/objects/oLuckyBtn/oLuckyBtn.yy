@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Lucky_sit",
-    "path":"sprites/Lucky_sit/Lucky_sit.yy",
+    "name":"Lucky_sit_btn",
+    "path":"sprites/Lucky_sit_btn/Lucky_sit_btn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

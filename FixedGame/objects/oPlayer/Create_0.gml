@@ -27,7 +27,7 @@ switch (global.character) {
         sprite_index = Mable_walk;
     break;
     case 7:
-        sprite_index = Waddles_idle;
+        sprite_index = Waddles_walk;
     break;
     case 8:
         sprite_index = Wallace_walk;
@@ -46,3 +46,13 @@ monster_spawned = false;
 knockback = 0;
 knock_dir = 0;
 
+//Bear Trap Variables
+trapped = false;
+trap_source = noone;
+
+trap_slow = 0.6;
+trap_jump_reduce = 0.85;
+
+//Sprint variables
+sprint_mult = 2.8;  //how much faster sprint is
+is_sprinting = false;

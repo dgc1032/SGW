@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Mable_sit",
-    "path":"sprites/Mable_sit/Mable_sit.yy",
+    "name":"Mable_sit_btn",
+    "path":"sprites/Mable_sit_btn/Mable_sit_btn.yy",
   },
   "spriteMaskId":null,
   "visible":true,
