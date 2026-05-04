@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oBeatrice_walk",
+  "%Name":"oPortal_5",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oBeatrice_walk",
+  "name":"oPortal_5",
   "overriddenProperties":[],
   "parent":{
-    "name":"BeatricePlayer",
-    "path":"folders/Objects/Characters/BeatricePlayer.yy",
+    "name":"Environment",
+    "path":"folders/Objects/Environment.yy",
   },
-  "parentObjectId":{
-    "name":"oBeatrice_player",
-    "path":"objects/oBeatrice_player/oBeatrice_player.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Beatrice_walk",
-    "path":"sprites/Beatrice_walk/Beatrice_walk.yy",
+    "name":"sPortal",
+    "path":"sprites/sPortal/sPortal.yy",
   },
   "spriteMaskId":null,
   "visible":true,
