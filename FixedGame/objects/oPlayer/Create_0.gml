@@ -45,3 +45,4 @@ monster_spawned = false;
 
 knockback = 0;
 knock_dir = 0;
+

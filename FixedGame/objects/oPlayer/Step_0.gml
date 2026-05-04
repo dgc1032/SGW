@@ -20,6 +20,7 @@ key_right = keyboard_check(ord("D"));
 key_jump = keyboard_check(vk_space);
 
 
+
 // Calculate Movement
 var move = key_right - key_left;
 
@@ -30,6 +31,8 @@ vsp = vsp + grv;
 if (place_meeting (x, y+1, oSolid)) && (key_jump) {
 	vsp = -5.5;
 }
+
+
 
 // Horizontal Collisions
 if (place_meeting(x+hsp, y, oSolid)) {
