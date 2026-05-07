@@ -2,5 +2,5 @@
 move_speed = 2;
 plat_dir = 1;
 
-start_x = x;
-end_x = x + 100;
+if (start_x == undefined) start_x = x;
+if (end_x == undefined) end_x = x;

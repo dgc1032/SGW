@@ -6,7 +6,7 @@ if (!invincible) {
 }
 
 if (lives <= 0) {
-    // Game over
+    global.game_state = "gameover";
     room_goto(rmGameOver);
 } else {
     // Respawn player

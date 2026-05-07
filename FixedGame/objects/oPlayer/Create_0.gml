@@ -6,33 +6,68 @@ walksp = 1.6;
 // Ladder variables
 on_ladder = false;
 
-//sets the character after select
 switch (global.character) {
     case 1:
-        sprite_index = Beatrice_walk;
+        spr_walk = Beatrice_walk;
+        spr_idle = Beatrice_idle;
+		spr_climb = Beatrice_climb;
+		gun_xoff = 3;
+        gun_yoff = -18;
     break;
-	case 2:
-        sprite_index = Edgar_walk;
+    case 2:
+        spr_walk = Edgar_walk;
+        spr_idle = Edgar_idle;
+		spr_climb = Edgar_climb;
+	    gun_xoff = 3;
+        gun_yoff = -25;
     break;
     case 3:
-        sprite_index = Emily_walk;
+        spr_walk = Emily_walk;
+        spr_idle = Emily_idle;
+		spr_climb = Emily_climb;
+		gun_xoff = 7;
+        gun_yoff = -18;
     break;
     case 4:
-        sprite_index = George_walk;
+        spr_walk = George_walk;
+        spr_idle = George_idle;
+		spr_climb = George_climb;
+	    gun_xoff = 5;
+        gun_yoff = -32;
     break;
     case 5:
-        sprite_index = Lucky_walk;
+        spr_walk = Lucky_walk;
+        spr_idle = Lucky_idle;
+		spr_climb = Lucky_climb;
+	    gun_xoff = 5;
+        gun_yoff = -23;
     break;
     case 6:
-        sprite_index = Mable_walk;
+        spr_walk = Mable_walk;
+        spr_idle = Mable_idle;
+		spr_climb = Mable_climb;
+	    gun_xoff = 5;
+        gun_yoff = -18;
     break;
     case 7:
-        sprite_index = Waddles_walk;
+        spr_walk = Waddles_walk;
+        spr_idle = Waddles_idle;
+		spr_climb = Waddles_climb;
+		gun_xoff = 5;
+        gun_yoff = -22;
     break;
     case 8:
-        sprite_index = Wallace_walk;
+        spr_walk = Wallace_walk;
+        spr_idle = Wallace_idle;
+		spr_climb = Wallace_climb;
+	    gun_xoff = 7;
+        gun_yoff = -25;
     break;
 }
+
+// start idle
+sprite_index = spr_idle;
+image_speed = 0;
 
 lives = 3;
 lives = max(0, lives);
@@ -53,6 +88,15 @@ trap_source = noone;
 trap_slow = 0.6;
 trap_jump_reduce = 0.85;
 
-//Sprint variables
-sprint_mult = 2.8;  //how much faster sprint is
+// Sprint variables
+sprint_mult = 2.8;
 is_sprinting = false;
+
+// Sprint stamina system
+sprint_time_max = room_speed * 0.5;
+sprint_time = sprint_time_max;
+
+sprint_cooldown_max = room_speed * 2; // 2 second cooldown
+sprint_cooldown = 0;
+
+can_sprint = true;

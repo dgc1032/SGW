@@ -1,3 +1,24 @@
+if (global.game_state == "gameover") exit;
+
+if (keyboard_check_pressed(vk_backspace)) {
+    lives ++;
+}
+
+if (y > room_height + 200) {
+
+    lives--;
+
+    x = 70;
+    y = 640;
+	
+    oMonster.x = oPlayer.x - 800;
+    oMonster.y = oPlayer.y -250;
+
+    hsp = 0;
+    vsp = 0;
+}
+
+
 if (!monster_spawned) {
     spawn_timer--;
 
@@ -21,7 +42,18 @@ key_jump = keyboard_check(vk_space);
 
 
 
+// --- Sprint Timers ---
 
+// Cooldown countdown
+if (sprint_cooldown > 0) {
+    sprint_cooldown--;
+}
+
+// Restore sprint after cooldown
+if (sprint_cooldown <= 0 && sprint_time <= 0) {
+    sprint_time = sprint_time_max;
+    can_sprint = true;
+}
 
 // Calculate Movement
 var move = key_right - key_left;
@@ -86,10 +118,12 @@ if (on_ladder) {
     var down = keyboard_check(ord("S"));
 
     if (up) {
-        y -= walksp * 2;  // move up
+        y -= walksp * 2.5;  // move up
     } else if (down) {
-        y += walksp;  // move down
+        y += walksp * 1.5;  // move down
     }
+	
+
 } else {
     // --- Normal Movement ---
 var key_left = keyboard_check(ord("A"));
@@ -101,14 +135,24 @@ var key_sprint = keyboard_check(vk_shift);
 var current_speed = walksp;
 var current_jump = -5.5;
 
-// Sprint (only if moving and not trapped)
-is_sprinting = false;
+if (
+    key_sprint &&
+    (key_left || key_right) &&
+    !trapped &&
+    can_sprint
+) {
 
-if (key_sprint && (key_left || key_right) && !trapped) {
     current_speed *= sprint_mult;
     is_sprinting = true;
-}
 
+    sprint_time--;
+
+    // Sprint ran out
+    if (sprint_time <= 0) {
+        can_sprint = false;
+        sprint_cooldown = sprint_cooldown_max;
+    }
+}
 // Trap modifiers (override sprint feel a bit)
 if (trapped) {
     current_speed *= trap_slow;
@@ -142,8 +186,50 @@ if (place_meeting(x, y + 1, oSolid)) {
 }
 
 if (knockback > 0) {
-    x += lengthdir_x(knockback, knock_dir);
-    y += lengthdir_y(knockback, knock_dir);
+
+    var kx = lengthdir_x(knockback, knock_dir);
+
+    // Horizontal collision
+    if (!place_meeting(x + kx, y, oSolid)) {
+
+        x += kx;
+
+    } else {
+
+        // Move safely toward wall
+        while (!place_meeting(x + sign(kx), y, oSolid)) {
+            x += sign(kx);
+        }
+
+        knockback = 0;
+    }
 
     knockback -= 1;
+}
+
+// --- LADDER TAKES PRIORITY ---
+if (on_ladder) {
+
+    if (keyboard_check(ord("W")) || keyboard_check(ord("S"))) {
+        sprite_index = spr_climb;
+        image_speed = 1;
+    } else {
+        sprite_index = spr_climb;
+        image_speed = 0;
+    }
+
+} else {
+
+    if (abs(hsp) > 0.1) {
+        sprite_index = spr_walk;
+        image_speed = is_sprinting ? 1.5 : 1;
+    } else {
+        sprite_index = spr_idle;
+        image_speed = 0;
+    }
+
+}
+
+if (hsp != 0) {
+    image_xscale = sign(hsp);
 }

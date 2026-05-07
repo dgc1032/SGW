@@ -1,1 +1,0 @@
-target_y = y;   // remember spawn height

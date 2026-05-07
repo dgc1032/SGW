@@ -1,10 +1,9 @@
-// Base Movement.
 
-hsp = 2; // The Horizontal speed.
-vsp = 0; // The Vertical speed.
-grav = 0.5; // The gravity.
 
-dir = -1; // The direction. Set to -1 so they start moving left. 
+vsp = 0;
+grv = 0.3;
+walksp = 2;
+hsp = walksp;
 
-// State boolean
-alive = true;
+hp = 4;
+flash = 0;

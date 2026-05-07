@@ -1,4 +1,4 @@
-if (room == rmLvl1 || room == rmLvl2) {
+if (room == rmLvl1 || room == rmLvl2 || room == rmLvl3 || room == rmLvl4 || room == rmLvl5) {
 
     var m = instance_find(oMonster, 0);
 

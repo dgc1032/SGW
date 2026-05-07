@@ -3,8 +3,8 @@
   "%Name":"sFrontTree1",
   "bboxMode":0,
   "bbox_bottom":266,
-  "bbox_left":607,
-  "bbox_right":897,
+  "bbox_left":57,
+  "bbox_right":347,
   "bbox_top":2,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1500,
+  "width":400,
 }
