@@ -35,16 +35,16 @@ if (invincible) {
     }
 }
 
-// Get Player Input
+// Player Input
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
 key_jump = keyboard_check(vk_space);
 
 
 
-// --- Sprint Timers ---
+// Sprint Timers
 
-// Cooldown countdown
+// Cooldown
 if (sprint_cooldown > 0) {
     sprint_cooldown--;
 }
@@ -101,14 +101,14 @@ if (plat != noone) {
     y += dy;
 }
 
-// --- Check Ladder ---
+// Check Ladder
 if (place_meeting(x, y, oLadder)) {
     on_ladder = true;
 } else {
     on_ladder = false;
 }
 
-// --- Ladder Movement ---
+// Ladder Movement
 if (on_ladder) {
     // Disable gravity
     vsp = 0;
@@ -118,14 +118,14 @@ if (on_ladder) {
     var down = keyboard_check(ord("S"));
 
     if (up) {
-        y -= walksp * 2.5;  // move up
+        y -= walksp * 2.5;
     } else if (down) {
-        y += walksp * 1.5;  // move down
+        y += walksp * 1.5;
     }
 	
 
 } else {
-    // --- Normal Movement ---
+    // Normal Movement
 var key_left = keyboard_check(ord("A"));
 var key_right = keyboard_check(ord("D"));
 var key_jump = keyboard_check(vk_space);
@@ -153,7 +153,7 @@ if (
         sprint_cooldown = sprint_cooldown_max;
     }
 }
-// Trap modifiers (override sprint feel a bit)
+// Trap modifiers
 if (trapped) {
     current_speed *= trap_slow;
     current_jump *= trap_jump_reduce;

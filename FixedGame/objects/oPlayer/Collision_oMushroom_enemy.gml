@@ -6,9 +6,9 @@ if (place_meeting(x, y, oMushroom_enemy) && !invincible) {
     // knockback direction away from enemy
     var enemy = instance_place(x, y, oMushroom_enemy);
 	if (x < enemy.x) {
-		knock_dir = 180; // left
+		knock_dir = 180;
 	} else {
-		knock_dir = 0; // right
+		knock_dir = 0;
 	}
 
 	knockback = 15;

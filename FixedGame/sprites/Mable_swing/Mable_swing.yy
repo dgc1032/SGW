@@ -45,7 +45,7 @@
   "origin":0,
   "parent":{
     "name":"Mable",
-    "path":"folders/Sprites/Mable.yy",
+    "path":"folders/Sprites/Characters/Mable.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

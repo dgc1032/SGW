@@ -7,6 +7,6 @@ if (target != noone) {
 
     x += lengthdir_x(spd, dir);
 
-    // Smoothly move toward player's Y
+    // Smoothly move
     y = lerp(y, target.y - 250, 0.03);
 }

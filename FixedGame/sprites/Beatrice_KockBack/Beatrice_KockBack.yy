@@ -49,7 +49,7 @@
   "origin":9,
   "parent":{
     "name":"Beatrice",
-    "path":"folders/Sprites/Beatrice.yy",
+    "path":"folders/Sprites/Characters/Beatrice.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

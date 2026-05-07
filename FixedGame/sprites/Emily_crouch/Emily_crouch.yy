@@ -48,7 +48,7 @@
   "origin":9,
   "parent":{
     "name":"Emily",
-    "path":"folders/Sprites/Emily.yy",
+    "path":"folders/Sprites/Characters/Emily.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

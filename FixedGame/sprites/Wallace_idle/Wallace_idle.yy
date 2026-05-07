@@ -47,7 +47,7 @@
   "origin":9,
   "parent":{
     "name":"Wallace",
-    "path":"folders/Sprites/Wallace.yy",
+    "path":"folders/Sprites/Characters/Wallace.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

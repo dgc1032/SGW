@@ -2,7 +2,7 @@ if (!invincible) {
     lives -= 1;
 
     invincible = true;
-    inv_timer = room_speed * 2; // 2 seconds of protection
+    inv_timer = room_speed * 2;
 }
 
 if (lives <= 0) {
@@ -11,7 +11,7 @@ if (lives <= 0) {
 } else {
     // Respawn player
     x = 192; 
-    y = 640; // adjust to your spawn point
+    y = 640; // adjust spawn point
 	
 	var m = instance_find(oMonster, 0);
 

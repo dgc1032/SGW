@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"Waddles",
-    "path":"folders/Sprites/Waddles.yy",
+    "path":"folders/Sprites/Characters/Waddles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

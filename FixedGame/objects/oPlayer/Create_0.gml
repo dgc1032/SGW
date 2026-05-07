@@ -75,7 +75,7 @@ lives = max(0, lives);
 invincible = false;
 inv_timer = 0;
 
-spawn_timer = room_speed * 3; // 3 second delay
+spawn_timer = room_speed * 3;
 monster_spawned = false;
 
 knockback = 0;
@@ -96,7 +96,7 @@ is_sprinting = false;
 sprint_time_max = room_speed * 0.5;
 sprint_time = sprint_time_max;
 
-sprint_cooldown_max = room_speed * 2; // 2 second cooldown
+sprint_cooldown_max = room_speed * 2;
 sprint_cooldown = 0;
 
 can_sprint = true;

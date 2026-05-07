@@ -47,7 +47,7 @@
   "origin":9,
   "parent":{
     "name":"Edgar",
-    "path":"folders/Sprites/Edgar.yy",
+    "path":"folders/Sprites/Characters/Edgar.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

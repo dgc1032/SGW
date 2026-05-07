@@ -6,8 +6,8 @@
   "name":"oUmberella",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Items",
+    "path":"folders/Objects/Items.yy",
   },
   "parentObjectId":null,
   "persistent":false,

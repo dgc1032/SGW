@@ -9,8 +9,8 @@
   "name":"oMonster",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Monster",
+    "path":"folders/Objects/Monster.yy",
   },
   "parentObjectId":null,
   "persistent":false,

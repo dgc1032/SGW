@@ -47,7 +47,7 @@
   "origin":9,
   "parent":{
     "name":"Lucky",
-    "path":"folders/Sprites/Lucky.yy",
+    "path":"folders/Sprites/Characters/Lucky.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
